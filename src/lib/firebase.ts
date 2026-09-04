@@ -7,11 +7,12 @@ import { getAuth } from 'firebase/auth';
 // Fallback config from firebase-applet-config.json values
 const fallbackConfig = {
   apiKey: "AIzaSyALVs5p0sA_Ytbbb4MIK0j8HJiCMV4z0w8",
-  authDomain: "clever-radio-zxjsq.firebaseapp.com",
-  projectId: "clever-radio-zxjsq",
-  storageBucket: "clever-radio-zxjsq.firebasestorage.app",
-  messagingSenderId: "17004714664",
-  appId: "1:17004714664:web:a0ba8c14e4e5cac2c5809d",
+  authDomain: "w00000-4d79e.firebaseapp.com",
+  projectId: "w00000-4d79e",
+  storageBucket: "w00000-4d79e.firebasestorage.app",
+  messagingSenderId: "397135625501",
+  appId: "1:397135625501:web:9e9b590a36c14423e135f4",
+  measurementId: "G-357QJ1HBVG"
 };
 
 // Default config from environment variables
