@@ -1,15 +1,4 @@
-{
-  "projectId": "clever-radio-zxjsq",
-  "appId": "1:17004714664:web:a0ba8c14e4e5cac2c5809d",
-  "apiKey": "AIzaSyALVs5p0sA_Ytbbb4MIK0j8HJiCMV4z0w8",
-  "authDomain": "clever-radio-zxjsq.firebaseapp.com",
-  "firestoreDatabaseId": "ai-studio-infoquest5-75356bc0-14c5-4169-a7e2-9fe98f75ed68",
-  "storageBucket": "clever-radio-zxjsq.firebasestorage.app",
-  "messagingSenderId": "17004714664",
-  "measurementId": "",
-  "oAuthClientId": "17004714664-sff873fnoum5mbq6hredcf3h7j1gsrfp.apps.googleusercontent.com",
-  "recaptchaSiteKey": ""
-}// Import the functions you need from the SDKs you need
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
