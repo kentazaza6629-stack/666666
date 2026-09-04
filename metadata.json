@@ -1,0 +1,6 @@
+{
+  "name": "InfoQuest ป.5 – นักสืบข้อมูลจิ๋ว",
+  "description": "แอปพลิเคชันการเรียนรู้วิทยาการคำนวณ ป.5 หน่วยข้อมูลสารสนเทศและการสืบค้นข้อมูลผ่านอินเทอร์เน็ตด้วยภารกิจเกมสืบสวนดิจิทัล",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

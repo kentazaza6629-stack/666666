@@ -1,0 +1,88 @@
+{
+  "collections": {
+    "users": {
+      "description": "Detective profiles and user settings",
+      "fields": {
+        "name": "string",
+        "avatar": "string",
+        "rankTitle": "string",
+        "level": "number",
+        "exp": "number",
+        "coins": "number",
+        "inventory": "array",
+        "equippedAvatar": "map",
+        "equippedRoom": "map",
+        "unlockedZones": "array",
+        "authUser": "map"
+      }
+    },
+    "announcements": {
+      "description": "Teacher announcements for students",
+      "fields": {
+        "content": "string",
+        "date": "timestamp",
+        "authorId": "string",
+        "authorName": "string",
+        "type": "string"
+      }
+    },
+    "classroom_groups": {
+      "description": "Student groups within a classroom",
+      "fields": {
+        "name": "string",
+        "teacherId": "string",
+        "members": "array"
+      }
+    },
+    "lesson_materials": {
+      "description": "Learning materials uploaded by teachers",
+      "fields": {
+        "title": "string",
+        "type": "string",
+        "url": "string",
+        "teacherId": "string"
+      }
+    },
+    "community_posts": {
+      "description": "Social feed posts in the community",
+      "fields": {
+        "content": "string",
+        "authorId": "string",
+        "authorName": "string",
+        "authorAvatar": "string",
+        "timestamp": "timestamp",
+        "likes": "number"
+      }
+    },
+    "teacher_chat": {
+      "description": "Direct chat messages between teachers and students",
+      "fields": {
+        "senderId": "string",
+        "receiverId": "string",
+        "message": "string",
+        "timestamp": "timestamp"
+      }
+    },
+    "assignments": {
+      "description": "Homework assignments given by teachers",
+      "fields": {
+        "title": "string",
+        "description": "string",
+        "dueDate": "string",
+        "teacherId": "string",
+        "classroom": "string"
+      }
+    },
+    "submissions": {
+      "description": "Homework submissions from students",
+      "fields": {
+        "assignmentId": "string",
+        "studentId": "string",
+        "studentName": "string",
+        "content": "string",
+        "timestamp": "timestamp",
+        "status": "string"
+      }
+    }
+  }
+}

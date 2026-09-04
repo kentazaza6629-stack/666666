@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if user is signed in
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    match /community_meta/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /users/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /settings/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /announcements/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /community_posts/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /teacher_chat/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /submissions/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /assignments/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /lesson_materials/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /classroom_groups/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /curriculum/{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
